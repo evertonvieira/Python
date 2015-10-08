@@ -7,8 +7,13 @@
 n = input ("Digite um número: ")
 a = 0
 b = 1
+c = 2
+d = a + b + c
+print a, "–", b, "–", c,
 for i in range(n):
-	print "–", a,
-	c = a + b
+	print "–", d,
 	a = b
 	b = c
+	c = d
+	d = a + b + c
+
